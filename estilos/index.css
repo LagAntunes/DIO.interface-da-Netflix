@@ -1,0 +1,11 @@
+/* início da formatação do header */ 
+    * {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    @font-face {
+        font-family:"GroovedPersonalUseRegular-9Y350";
+        src: url("../fontes/GroovedPersonalUseRegular-9Y350.ttf");
+    }
+/* fim da formatação do header */ 
