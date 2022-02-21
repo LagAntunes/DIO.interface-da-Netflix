@@ -8,4 +8,19 @@
         font-family:"GroovedPersonalUseRegular-9Y350";
         src: url("../fontes/GroovedPersonalUseRegular-9Y350.ttf");
     }
+
+    header {
+        background-color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
 /* fim da formatação do header */ 
+
+/* início da formatação do body */ 
+    body {
+        background-image: url("../imagens/fundo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+/* fim da formatação do body */ 
