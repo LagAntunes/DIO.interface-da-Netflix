@@ -10,10 +10,41 @@
     }
 
     header {
-        background-color: white;
+        background-color: transparent;
         display: flex;
         align-items: center;
         flex-direction: row;
+        padding: 2%;
+    }
+
+    .logo {
+        border: 1px solid red;
+        width: 50%;
+        font-family:"GroovedPersonalUseRegular-9Y350";
+        font-size: 1.5em;
+    }
+
+    .logo a {
+        text-decoration: none;
+    }
+
+    #cor-span1 {
+        color: rgb(250, 189, 76);
+        text-shadow: 2px 2px black;
+    }
+
+    #cor-span2 {
+        color: white;
+        text-shadow: 2px 2px black;
+    }
+
+    .links {
+        border: 1px solid blue;
+        width: 40%;
+    }
+
+    .links select {
+        margin-left: 70%;
     }
 /* fim da formatação do header */ 
 
