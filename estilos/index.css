@@ -99,3 +99,11 @@
         margin-top: 2%;
     }
 /* fim da formatação da section-principal */ 
+
+/* início da formatação da section-carrossel */
+    .section-carrossel {
+        background-color: white;
+        height: 100%;
+        margin-top: 7%;
+    }
+/* fim da formatação da section-carrossel */
