@@ -38,13 +38,38 @@
         text-shadow: 2px 2px black;
     }
 
+    .logo a:hover #cor-span1 {
+        color: white;
+    }
+
+    .logo a:hover #cor-span2 {
+        color: rgb(250, 189, 76);
+    }
+
     .links {
         border: 1px solid blue;
         width: 40%;
     }
 
     .links select {
-        margin-left: 70%;
+        margin-left: 45%;
+        color: white;
+        background-color: transparent;
+        width: 25%;
+        padding: 1.2%;
+        border-color: white;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    .links select option {
+        color: white;
+        background-color: lightgray;
+        font-weight: bold;
+    }
+
+    .links button {
+        margin-left: 15%;
     }
 /* fim da formatação do header */ 
 
