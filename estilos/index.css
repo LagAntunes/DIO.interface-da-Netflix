@@ -18,7 +18,6 @@
     }
 
     .logo {
-        border: 1px solid red;
         width: 50%;
         font-family:"GroovedPersonalUseRegular-9Y350";
         font-size: 1.5em;
@@ -47,7 +46,6 @@
     }
 
     .links {
-        border: 1px solid blue;
         width: 40%;
     }
 
@@ -69,7 +67,7 @@
     }
 
     .links button {
-        margin-left: 15%;
+        margin-left: 7%;
     }
 /* fim da formatação do header */ 
 
