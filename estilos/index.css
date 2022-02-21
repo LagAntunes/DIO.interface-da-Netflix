@@ -82,14 +82,20 @@
         display: flex;
         flex-direction: column;
         color: white;
-        margin-top: 4%;
+        text-shadow: 1px 1px black;
+        margin-top: 3%;
     }
 
     .section-principal h4 {
-        margin-top: 10%;
+        margin-top: 12%;
     }
 
     .section-principal h5 {
         margin-top: 0.5%;
+    }
+
+    .div-display-input {
+        width: 70%;
+        margin-top: 2%;
     }
 /* fim da formatação da section-principal */ 
