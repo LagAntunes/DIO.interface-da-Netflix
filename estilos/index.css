@@ -71,10 +71,25 @@
     }
 /* fim da formatação do header */ 
 
-/* início da formatação do body */ 
+/* início da formatação da section-principal */ 
     body {
         background-image: url("../imagens/fundo.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
-/* fim da formatação do body */ 
+
+    .section-principal {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-top: 4%;
+    }
+
+    .section-principal h4 {
+        margin-top: 10%;
+    }
+
+    .section-principal h5 {
+        margin-top: 0.5%;
+    }
+/* fim da formatação da section-principal */ 
