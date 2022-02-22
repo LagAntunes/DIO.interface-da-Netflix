@@ -76,6 +76,7 @@
         background-image: url("../imagens/fundo.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
     }
 
     .section-principal {
@@ -105,5 +106,32 @@
         background-color: white;
         height: 100%;
         margin-top: 7%;
+    }
+
+    .titulo-carrossel {
+        margin-left: 10%;
+        margin-bottom: 3%;
+    }
+
+    .titulo-carrossel h2 {
+        font-family:"GroovedPersonalUseRegular-9Y350";
+        color: rgb(250, 189, 76);
+        text-shadow: 1px 1px black;
+        font-size: 2.5em;
+    }
+
+    #carrossel {
+        width: 70%;
+        height: 100%;
+    }
+
+    .item img {
+        height: 100px;
+    }
+
+    .box-filme {
+        height: 100%;
+        width: 100%;
+        display: flex;
     }
 /* fim da formatação da section-carrossel */
